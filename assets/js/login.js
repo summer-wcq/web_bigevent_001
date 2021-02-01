@@ -71,7 +71,7 @@ $(function() {
                 // 成功
                 layer.msg('登录成功')
                     // 跳转
-                location.href = '/index.html'; //绝对路径
+                location.href = '/code/index.html'; //绝对路径
                 // 保存token，未来的接口要使用token
                 localStorage.setItem('token', res.token)
             }
